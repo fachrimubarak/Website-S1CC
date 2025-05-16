@@ -1,0 +1,363 @@
+body {
+  font-family: "Livvic";
+}
+
+.bg-accent {
+  background-color: #B6C4B6;
+  /* Warna asli tombol */
+  color: #222831;
+  /* Warna teks tombol */
+  border: none;
+  /* Menghilangkan border */
+  transition: none;
+  /* Menghapus efek transisi */
+}
+
+.bg-accent:hover {
+  background-color: #B6C4B6;
+  /* Tetap warna asli */
+  color: #222831;
+  /* Tetap warna teks asli */
+  border: none;
+  /* Pastikan border tetap hilang */
+  cursor: pointer;
+  /* Menambahkan pointer untuk interaksi */
+}
+
+.logo-S1CC {
+  width: 40px;
+  height: 40px;
+}
+
+.fs-2 {
+  font-family: "Livvic";
+  font-weight: 600;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.img {
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.navbar {
+  background-color: #222831;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-link:focus {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #B6C4B6;
+}
+
+.rounded-text {
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-home-bg {
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.livvic-thin {
+  font-family: "Livvic", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.livvic-extralight {
+  font-family: "Livvic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.livvic-light {
+  font-family: "Livvic", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.livvic-regular {
+  font-family: "Livvic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.livvic-medium {
+  font-family: "Livvic", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.livvic-semibold {
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.livvic-bold {
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.livvic-black {
+  font-family: "Livvic", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.livvic-thin-italic {
+  font-family: "Livvic", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.livvic-extralight-italic {
+  font-family: "Livvic", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.livvic-light-italic {
+  font-family: "Livvic", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.livvic-regular-italic {
+  font-family: "Livvic", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.livvic-medium-italic {
+  font-family: "Livvic", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.livvic-semibold-italic {
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.livvic-bold-italic {
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.livvic-black-italic {
+  font-family: "Livvic", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(180deg,
+      rgba(255, 255, 255, 0.4),
+      rgb(255, 255, 255) 100%);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(180deg,
+  rgba(255, 255, 255, 0.4),
+  rgb(36, 37, 48) 100%);
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  /* Adjust the values as needed */
+}
+
+.bg-primary-web {
+  background-color: #EEF0E5;
+}
+
+.bg-primary-card {
+  background-color: #393E46;
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+
+.img-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.img-container:hover .overlay {
+  opacity: 1;
+}
+
+.profile-image {
+  width: 200px;
+  /* Set a fixed size for the image */
+  height: 200px;
+  /* Keep width and height equal to maintain a square */
+  object-fit: cover;
+  /* Ensure the image covers the circle without stretching */
+  border-radius: 50%;
+  /* Makes the image round (circle) */
+}
+
+.image-testimoni {
+  width: 250px;
+  height: 175px;
+  object-fit: cover;
+}
+
+
+.responsive-font {
+  font-size: 2rem; 
+}
+
+.text-ellipsis {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1) brightness(100);
+}
+
+.navbar-toggler:focus, 
+.navbar-toggler-icon:focus {
+  outline: none !important;  /* Menghapus outline */
+  box-shadow: none !important;  /* Menghapus box-shadow */
+}
+
+.nav-link:focus {
+  outline: none !important; /* Menghapus outline default */
+  color: #fff !important; /* Ubah warna teks menjadi putih */
+}
+
+
+button:focus {
+  outline: none !important;
+  border-color: #fff !important; /* Mengubah border menjadi putih */
+  color: #fff !important; /* Mengubah warna teks menjadi putih */
+}
+
+
+
+@media (max-width: 767px) { 
+  .text-ellipsis {
+    display: -webkit-box;               
+    -webkit-box-orient: vertical;        
+    -webkit-line-clamp: 5;              
+    overflow: hidden;                  
+    text-overflow: ellipsis;            
+    line-height: 1.5;                    
+  }
+}
+
+
+@media (min-width: 320px) { /* Tablet */
+  .responsive-font {
+    font-size: 3rem;
+  }
+
+  .text-ellipsis {
+    display: -webkit-box;               
+    -webkit-box-orient: vertical;        
+    -webkit-line-clamp: 4;              
+    overflow: hidden;                  
+    text-overflow: ellipsis;            
+    line-height: 1.5;                    
+  }
+
+  .profile-image {
+    width: 100px;
+    /* Set a fixed size for the image */
+    height: 100px;
+    /* Keep width and height equal to maintain a square */
+    object-fit: cover;
+    /* Ensure the image covers the circle without stretching */
+    border-radius: 50%;
+    /* Makes the image round (circle) */
+  }
+  
+}
+
+
+
+@media (min-width: 768px) { /* Tablet */
+  .responsive-font {
+    font-size: 3rem;
+  }
+
+  .text-ellipsis {
+    display: -webkit-box;               
+    -webkit-box-orient: vertical;        
+    -webkit-line-clamp: 4;              
+    overflow: hidden;                  
+    text-overflow: ellipsis;            
+    line-height: 1.5;                    
+  }
+}
+
+@media (min-width: 992px) { /* Desktop */
+  .responsive-font {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1200px) { /* Layar besar */
+  .responsive-font {
+    font-size: 5rem;
+  }
+}
+
